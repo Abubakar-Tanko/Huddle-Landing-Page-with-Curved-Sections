@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'poppingsB';
+    src: url(Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: 'openR';
+    src: url(Open_sans/static/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'openSB';
+    src: url(Open_sans/static/OpenSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'openB';
+    src: url(Open_sans/static/OpenSans-Bold.ttf);
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 60px;
+    font-family: openB;
+}
+h2{
+    font-size: 34px;
+    font-family: poppingsB;
+}
+h3{
+    font-size: 23px;
+    font-family: openSB;
+    text-transform: uppercase;
+}
+section#top{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+div.logo{
+    width: 180px;
+}
+div.logo img{
+    width: 100%;
+}
+section#top button{
+    border: 2px solid hsl(321, 100%, 78%);
+    background-color: white;
+    color: hsl(321, 100%, 78%);
+    padding: 8px 25px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 4px 4px hsl(207, 100%, 98%);
+}
+section#top button:hover{
+    border-color: hsla(321, 100%, 78%, 0.6);
+    color: hsla(321, 100%, 78%, 0.6);
+}
+section.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 40px;
+}
+article.huddle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+article.huddle p{
+    width: 415px;
+    text-align: center;
+}
+article.huddle button{
+    padding: 18px;
+    width: 250px;
+    box-shadow: 1px 4px 8px hsl(207, 100%, 98%);
+}
+article.huddle button:hover{
+    background-color: hsla(321, 100%, 78%, 0.9);
+}
+p{
+    font-family: openR;
+    font-size: 13px;
+}
+article.number{
+    display: flex;
+    gap: 100px;
+    font-family: openSB;
+}
+article.number div p{
+    font-size: 16px;
+    text-align: center;
+}
+article.number div span{
+    display: block;
+    width: 35px;
+}
+article.number div span img{
+    width: 100%;
+}
+section#all{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+section.flex{
+    display: flex;
+    align-items: center;
+}
+article.flex, section.flowing{
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    margin-top: -10px;
+    gap: 100px;
+}
+section.flex div.info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+section.flex div.info p{
+    width: 424px;
+}
+section.flex div.image{
+    width: 50%;
+}
+section.flex div.image img{
+    width: 100%;
+}
+section.grow{
+    display: flex;
+    flex-direction: column;
+}
+article.flex{
+    background-color: hsl(207, 100%, 98%);
+}
+article.background{
+    width: 100%;
+}
+article.background img{
+    width: 100%;
+}
+section.users{
+    display: flex;
+    flex-direction: column;
+}
+section#alone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 80px 80px 150px 80px;
+}
+section#alone button{
+    padding: 20px;
+    width: 280px;
+    box-shadow: 5px 8px 10px hsl(207, 100%, 98%);
+}
+section#alone button:hover{
+    background-color: hsla(321, 100%, 78%, 0.9);
+}
+button{
+    font-family: openSB
+}
+button:hover{
+    cursor: pointer;
+}
+button.pink{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+article#foot-color{
+    background-color: hsl(192, 100%, 9%);
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+footer p{
+    width: 303px;
+}
+article.Lorem{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+article#foot-color article.Lorem div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+article.Lorem ul#icon{
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    padding-top: 40px;
+}
+article.Lorem ul#icon li{
+    font-size: 25px;
+}
+article.Lorem ul#icon li:hover{
+    color: hsl(210, 100%, 60%);
+    cursor: pointer;
+}
+article#form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+article#form input, article#form button{
+    border-radius: 4px;
+    padding: 8px;
+    border: none;
+}
+article#form input{
+    width: 270px;
+}
+article#form input:focus{
+    cursor: pointer;
+}
+article#form button{
+    width: 150px;
+}
+article#form button:hover{
+    background-color: hsla(321, 100%, 78%, 0.9);
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+div#form{
+    display: flex;
+    gap: 30px;
+}
+div#bottom{
+    background-color: hsl(192, 100%, 9%);
+    margin-top: -10px;
+    padding: 20px;
+    color: white;
+    font-family: openSB;
+}
+a{
+    font-size: 12px;
+    transition: 0.4s;
+}
+a:hover{
+    font-size: 14px;
+    text-decoration: none;
+    font-family: openB;
+    cursor: pointer;
+}
+@media screen and (max-width: 375px) {
+    h1{
+       font-size: 34px; 
+    }
+    button{
+        font-size: 12px;
+    }
+    section#top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+    }
+    section#top button{
+        padding: 4px 20px;
+    }
+    section.first article{
+        width: 100%;
+        text-align: center;
+    }
+    section.first article img{
+        width: 100%;
+    }
+    section.first h2{
+        font-size: 22px;
+    }
+    article.huddle p {
+        width: 293px;
+    }
+    article.number{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    article.number div p{
+        font-size: 10px;
+    }
+    article.number div p#small{
+        width: 68px;
+    }
+    section.flex{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    section.flex div.image, div.image img{
+        width: 100%;
+    }
+    article.flex{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding: 40px;
+        width: 100%;
+    }
+    section.flex h2{
+        width: 260px;
+        font-size: 22px;
+    }
+    section.flowing{
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    section.users article.flex{
+        padding-bottom: 110px;
+    }
+    section.flex div.info p{
+        width: 299px;
+    }
+    section#alone{
+        text-align: center;
+        padding: 20px 80px 270px 80px;
+    }
+    section#alone h2{
+        font-size: 21px;
+    }
+    section#alone button{
+        padding: 15px;
+        width: 210px;
+    }
+    footer article#foot-color{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 30px;
+        gap: 100px;
+    }
+    footer article#foot-color div#form{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    footer div.foot-img{
+        width: 170px;
+    }
+    footer p{
+        width: 276px;
+    }
+    div.logo{
+        width: 90px;
+    }
+    div.logo img{
+        width: 100%;
+    }
+    article#form input{
+        width: 100%;
+    }
+    article#form input, article#form button{
+        padding: 12px;
+    }
+    article.Lorem ul#icon{
+        padding-top: 20px;
+    }
+}
